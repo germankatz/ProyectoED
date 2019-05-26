@@ -1,0 +1,6 @@
+[Inputs]
+=dato_hamm_tx[6:0]=
+=error[3:0]=
+[Outputs]
+=dato_hamm_tx_error[6:0]=
+[BiDir]

@@ -1,0 +1,2 @@
+vhdl work "GeneradorError.vhd"
+vhdl work "GeneradorError_tb.vhd"

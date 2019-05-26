@@ -1,0 +1,2 @@
+vhdtdtfi -lib work GeneradorError.vhd -prj Proyecto1prueba -o GeneradorError.spl -module GeneradorError -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e GeneradorError.spl C:/Users/Chuky-master/Xilinxs/Proyecto1prueba/GeneradorError.sym 

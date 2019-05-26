@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\Chuky-master\Xilinxs\Proyecto1prueba\GeneradorHamming.ncd
+OUTFILE=C:\Users\Chuky-master\Xilinxs\Proyecto1prueba\GeneradorHamming.bit
+FAMILY=Spartan3E
+PART=xc3s100e-4cp132
+WORKINGDIR=C:\Users\Chuky-master\Xilinxs\Proyecto1prueba
+LICENSE=WebPack
+USER_INFO=211501411_0_0_959

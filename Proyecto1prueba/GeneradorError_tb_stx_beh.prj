@@ -1,0 +1,2 @@
+vhdl isim_temp "GeneradorError.vhd"
+vhdl isim_temp "GeneradorError_tb.vhd"
