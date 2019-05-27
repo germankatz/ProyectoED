@@ -1,0 +1,2 @@
+vhdl isim_temp "DetectorCorrectorHamming.vhd"
+vhdl isim_temp "DetectorCorrectorHamming_tb.vhd"

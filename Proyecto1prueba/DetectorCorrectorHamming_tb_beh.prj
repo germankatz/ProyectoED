@@ -1,0 +1,2 @@
+vhdl work "DetectorCorrectorHamming.vhd"
+vhdl work "DetectorCorrectorHamming_tb.vhd"

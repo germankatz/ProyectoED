@@ -1,1 +1,1 @@
--intstyle "ise" -incremental -o "C:/Users/Chuky-master/Xilinxs/Proyecto1prueba/GeneradorError_tb_isim_beh.exe" -prj "C:/Users/Chuky-master/Xilinxs/Proyecto1prueba/GeneradorError_tb_beh.prj" "work.GeneradorError_tb" 
+-intstyle "ise" -incremental -o "C:/Users/Chuky-master/Xilinxs/Proyecto1prueba/DetectorCorrectorHamming_tb_isim_beh.exe" -prj "C:/Users/Chuky-master/Xilinxs/Proyecto1prueba/DetectorCorrectorHamming_tb_beh.prj" "work.DetectorCorrectorHamming_tb" 

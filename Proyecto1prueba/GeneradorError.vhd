@@ -42,6 +42,7 @@ begin
 process(dato_hamm_tx,error)
 
 variable cantErrores : integer;
+
 begin
 cantErrores := 0;
 
