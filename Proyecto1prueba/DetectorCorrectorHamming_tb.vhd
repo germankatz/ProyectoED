@@ -70,11 +70,12 @@ BEGIN
 
 --
       -- insert stimulus here 
+		-- Se ingresa el codigo de hamming con un error en un bit de dato
 		dato_hamm_rx_error(6) <= '1'; -- MSB
 		dato_hamm_rx_error(5) <= '0';
 		dato_hamm_rx_error(4) <= '1';
 		dato_hamm_rx_error(3) <= '1';
-		dato_hamm_rx_error(2) <= '1';
+		dato_hamm_rx_error(2) <= '0';
 		dato_hamm_rx_error(1) <= '0';
 		dato_hamm_rx_error(0) <= '0';
 

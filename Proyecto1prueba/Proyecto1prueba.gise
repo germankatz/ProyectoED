@@ -22,6 +22,7 @@
   <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="Proyecto1prueba.xise"/>
 
   <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="DetectorCorrectorHamming_tb_isim_beh.exe"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="DetectorCorrectorHamming_tb_stx_beh.prj"/>
     <file xil_pn:fileType="FILE_SPL" xil_pn:name="GeneradorError.spl"/>
     <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="GeneradorError.sym" xil_pn:origination="imported"/>
@@ -93,7 +94,7 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1558912843" xil_pn:in_ck="1714964115780744557" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1558912842">
+    <transform xil_pn:end_ts="1558915880" xil_pn:in_ck="1714964115780744557" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1558915880">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="DetectorCorrectorHamming.vhd"/>
@@ -103,11 +104,11 @@
       <outfile xil_pn:name="GeneradorHamming.vhd"/>
       <outfile xil_pn:name="GeneradorHamming_tb.vhd"/>
     </transform>
-    <transform xil_pn:end_ts="1558906337" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-4212811509178663626" xil_pn:start_ts="1558906337">
+    <transform xil_pn:end_ts="1558915880" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-4212811509178663626" xil_pn:start_ts="1558915880">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1558906337" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="7236824957037524728" xil_pn:start_ts="1558906337">
+    <transform xil_pn:end_ts="1558915880" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="7236824957037524728" xil_pn:start_ts="1558915880">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
@@ -115,27 +116,19 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1558907540" xil_pn:in_ck="7416706554330762108" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1558907540">
+    <transform xil_pn:end_ts="1558915880" xil_pn:in_ck="1714964115780744557" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1558915880">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForInputs"/>
-      <status xil_pn:value="OutOfDateForOutputs"/>
-      <status xil_pn:value="InputAdded"/>
-      <status xil_pn:value="InputChanged"/>
-      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="DetectorCorrectorHamming.vhd"/>
+      <outfile xil_pn:name="DetectorCorrectorHamming_tb.vhd"/>
       <outfile xil_pn:name="GeneradorError.vhd"/>
       <outfile xil_pn:name="GeneradorError_tb.vhd"/>
       <outfile xil_pn:name="GeneradorHamming.vhd"/>
       <outfile xil_pn:name="GeneradorHamming_tb.vhd"/>
     </transform>
-    <transform xil_pn:end_ts="1558907541" xil_pn:in_ck="7416706554330762108" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-6638997679172196860" xil_pn:start_ts="1558907540">
+    <transform xil_pn:end_ts="1558915881" xil_pn:in_ck="1714964115780744557" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-6638997679172196860" xil_pn:start_ts="1558915880">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForInputs"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
-      <status xil_pn:value="OutOfDateForOutputs"/>
-      <status xil_pn:value="InputChanged"/>
-      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="GeneradorError_tb_beh.prj"/>
       <outfile xil_pn:name="GeneradorError_tb_isim_beh.exe"/>
       <outfile xil_pn:name="fuse.log"/>
@@ -143,12 +136,9 @@
       <outfile xil_pn:name="isim.log"/>
       <outfile xil_pn:name="xilinxsim.ini"/>
     </transform>
-    <transform xil_pn:end_ts="1558907541" xil_pn:in_ck="-873652287912488991" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-1515891782328559961" xil_pn:start_ts="1558907541">
+    <transform xil_pn:end_ts="1558915882" xil_pn:in_ck="2310714018975273715" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-1515891782328559961" xil_pn:start_ts="1558915881">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
-      <status xil_pn:value="OutOfDateForOutputs"/>
-      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="GeneradorError_tb_isim_beh.wdb"/>
       <outfile xil_pn:name="isim.cmd"/>
       <outfile xil_pn:name="isim.log"/>

@@ -2,28 +2,9 @@ Command line:
    DetectorCorrectorHamming_tb_isim_beh.exe
      -simmode  gui
      -simrunnum  0
-     -socket  49722
+     -socket  49752
 
-Sun May 26 21:05:15 2019
+Sun May 26 21:12:09 2019
 
 
  Elaboration Time: 0.046875 sec
-
- Current Memory Usage: 650.273 Meg
-
- Total Signals          : 4
- Total Nets             : 11
- Total Signal Drivers   : 2
- Total Blocks           : 3
- Total Primitive Blocks : 2
- Total Processes        : 2
- Total Traceable Variables  : 8
- Total Scalar Nets and Variables : 371
-Total Line Count : 51
-
- Total Simulation Time: 0.046875 sec
-
- Current Memory Usage: 650.273 Meg
-
-Sun May 26 21:05:24 2019
-

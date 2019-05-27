@@ -72,10 +72,11 @@ BEGIN
       -- hold reset state for 100 ns.
       wait for 100 ns;	
       -- insert stimulus here 
-		dato(0) <= '1';
-		dato(1) <= '0';
-		dato(2) <= '0';
+		
 		dato(3) <= '1'; --MSB
+		dato(2) <= '1';
+		dato(1) <= '1';
+		dato(0) <= '0';
 
       wait;
    end process;

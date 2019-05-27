@@ -75,112 +75,23 @@ BEGIN
       -- insert stimulus here 
 		
 		-- Ponemos los datos del hamming
-		dato_hamm_tx(0) <= '1'; -- Bit de paridad
-		dato_hamm_tx(1) <= '1'; -- Bit de paridad
-		dato_hamm_tx(2) <= '1';
-		dato_hamm_tx(3) <= '1'; -- Bit de paridad
-		dato_hamm_tx(4) <= '1';
-		dato_hamm_tx(5) <= '1';
 		dato_hamm_tx(6) <= '1'; -- MSB
+		dato_hamm_tx(5) <= '1';
+		dato_hamm_tx(4) <= '1';
+		dato_hamm_tx(3) <= '1'; -- Bit de paridad
+		dato_hamm_tx(2) <= '0';
+		dato_hamm_tx(1) <= '0'; -- Bit de paridad
+		dato_hamm_tx(0) <= '0'; -- Bit de paridad
 		
-		-- Mostramos el error
-		error(0) <= '0';
-		error(1) <= '0';
-		error(2) <= '0';
+		-- Elegimos que bit de dato cambiar, switch arriba (1) indica bit de dato a cambiar
 		error(3) <= '0'; -- MSB
-		
-		-- lo hacemos esperar
-      wait for 15 ns;	 
-		
-		-- Ponemos los datos del hamming
-		dato_hamm_tx(0) <= '1'; -- Bit de paridad
-		dato_hamm_tx(1) <= '1'; -- Bit de paridad
-		dato_hamm_tx(2) <= '1';
-		dato_hamm_tx(3) <= '1'; -- Bit de paridad
-		dato_hamm_tx(4) <= '1';
-		dato_hamm_tx(5) <= '1';
-		dato_hamm_tx(6) <= '1'; -- MSB
-		
-		-- Mostramos el error
-		error(0) <= '0';
-		error(1) <= '0';
-		error(2) <= '0';
-		error(3) <= '1'; -- MSB
-		
-		-- lo hacemos esperar
-      wait for 15 ns;	 
-		
-		-- Ponemos los datos del hamming
-		dato_hamm_tx(0) <= '1'; -- Bit de paridad
-		dato_hamm_tx(1) <= '1'; -- Bit de paridad
-		dato_hamm_tx(2) <= '1';
-		dato_hamm_tx(3) <= '1'; -- Bit de paridad
-		dato_hamm_tx(4) <= '1';
-		dato_hamm_tx(5) <= '1';
-		dato_hamm_tx(6) <= '1'; -- MSB
-		
-		-- Mostramos el error
-		error(0) <= '0';
-		error(1) <= '0';
 		error(2) <= '1';
-		error(3) <= '0'; -- MSB
-		
-		-- lo hacemos esperar
-      wait for 15 ns;	 
-		
-		-- Ponemos los datos del hamming
-		dato_hamm_tx(0) <= '1'; -- Bit de paridad
-		dato_hamm_tx(1) <= '1'; -- Bit de paridad
-		dato_hamm_tx(2) <= '1';
-		dato_hamm_tx(3) <= '1'; -- Bit de paridad
-		dato_hamm_tx(4) <= '1';
-		dato_hamm_tx(5) <= '1';
-		dato_hamm_tx(6) <= '1'; -- MSB
-		
-		-- Mostramos el error
-		error(0) <= '0';
-		error(1) <= '1';
-		error(2) <= '0';
-		error(3) <= '0'; -- MSB
-		
-		-- lo hacemos esperar
-      wait for 15 ns;	 
-		
-		-- Ponemos los datos del hamming
-		dato_hamm_tx(0) <= '1'; -- Bit de paridad
-		dato_hamm_tx(1) <= '1'; -- Bit de paridad
-		dato_hamm_tx(2) <= '1';
-		dato_hamm_tx(3) <= '1'; -- Bit de paridad
-		dato_hamm_tx(4) <= '1';
-		dato_hamm_tx(5) <= '1';
-		dato_hamm_tx(6) <= '1'; -- MSB
-		
-		-- Mostramos el error
-		error(0) <= '1';
 		error(1) <= '0';
-		error(2) <= '0';
-		error(3) <= '0'; -- MSB
+		error(0) <= '0';
 		
 		-- lo hacemos esperar
       wait for 15 ns;	 
 		
-		-- Ponemos los datos del hamming
-		dato_hamm_tx(0) <= '1'; -- Bit de paridad
-		dato_hamm_tx(1) <= '1'; -- Bit de paridad
-		dato_hamm_tx(2) <= '1';
-		dato_hamm_tx(3) <= '1'; -- Bit de paridad
-		dato_hamm_tx(4) <= '1';
-		dato_hamm_tx(5) <= '1';
-		dato_hamm_tx(6) <= '1'; -- MSB
-		
-		-- Mostramos el error
-		error(0) <= '1';
-		error(1) <= '1';
-		error(2) <= '1';
-		error(3) <= '1'; -- MSB
-		
-		-- lo hacemos esperar
-      wait for 15 ns;	
 
       wait;
    end process;
