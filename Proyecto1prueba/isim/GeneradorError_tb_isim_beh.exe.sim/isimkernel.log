@@ -2,14 +2,14 @@ Command line:
    GeneradorError_tb_isim_beh.exe
      -simmode  gui
      -simrunnum  0
-     -socket  49750
+     -socket  49358
 
-Sun May 26 21:11:22 2019
+Tue May 28 09:24:20 2019
 
 
  Elaboration Time: 0.046875 sec
 
- Current Memory Usage: 658.399 Meg
+ Current Memory Usage: 657.678 Meg
 
  Total Signals          : 6
  Total Nets             : 18
@@ -21,9 +21,9 @@ Sun May 26 21:11:22 2019
  Total Scalar Nets and Variables : 378
 Total Line Count : 41
 
- Total Simulation Time: 0.0625 sec
+ Total Simulation Time: 0.046875 sec
 
- Current Memory Usage: 658.399 Meg
+ Current Memory Usage: 657.678 Meg
 
-Sun May 26 21:11:30 2019
+Tue May 28 09:39:01 2019
 

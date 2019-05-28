@@ -1,0 +1,1 @@
+vhdtdtfi -prj Proyecto1prueba -o C:/Users/Chuky-master/Xilinxs/Proyecto1prueba/DetectorCorrectorHamming.vhi -module DetectorCorrectorHamming -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work DetectorCorrectorHamming.vhd 

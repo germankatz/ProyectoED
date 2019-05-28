@@ -1,20 +1,21 @@
-Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt\unwrapped\fuse.exe -intstyle ise -incremental -o C:/Users/Chuky-master/Xilinxs/Proyecto1prueba/DetectorCorrectorHamming_tb_isim_beh.exe -prj C:/Users/Chuky-master/Xilinxs/Proyecto1prueba/DetectorCorrectorHamming_tb_beh.prj work.DetectorCorrectorHamming_tb 
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt\unwrapped\fuse.exe -intstyle ise -incremental -o C:/Users/Chuky-master/Xilinxs/Proyecto1prueba/to_7seg_tb_isim_beh.exe -prj C:/Users/Chuky-master/Xilinxs/Proyecto1prueba/to_7seg_tb_beh.prj work.to_7seg_tb 
 ISim P.20131013 (signature 0x8ef4fb42)
 Number of CPUs detected in this system: 1
 Turning on mult-threading, number of parallel sub-compilation jobs: 0 
 Determining compilation order of HDL files
-Parsing VHDL file "C:/Users/Chuky-master/Xilinxs/Proyecto1prueba/DetectorCorrectorHamming.vhd" into library work
-Parsing VHDL file "C:/Users/Chuky-master/Xilinxs/Proyecto1prueba/DetectorCorrectorHamming_tb.vhd" into library work
+Parsing VHDL file "C:/Users/Chuky-master/Xilinxs/Proyecto1prueba/to_7seg.vhd" into library work
+Parsing VHDL file "C:/Users/Chuky-master/Xilinxs/Proyecto1prueba/to_7seg_tb.vhd" into library work
 Starting static elaboration
 Completed static elaboration
-Fuse Memory Usage: 103852 KB
-Fuse CPU Usage: 217 ms
+Fuse Memory Usage: 103340 KB
+Fuse CPU Usage: 234 ms
 Compiling package standard
 Compiling package std_logic_1164
-Compiling architecture behavioral of entity DetectorCorrectorHamming [detectorcorrectorhamming_default]
-Compiling architecture behavior of entity detectorcorrectorhamming_tb
+Compiling package std_logic_arith
+Compiling architecture behavioral of entity to_7seg [to_7seg_default]
+Compiling architecture behavior of entity to_7seg_tb
 Time Resolution for simulation is 1ps.
-Compiled 5 VHDL Units
-Built simulation executable C:/Users/Chuky-master/Xilinxs/Proyecto1prueba/DetectorCorrectorHamming_tb_isim_beh.exe
-Fuse Memory Usage: 111772 KB
-Fuse CPU Usage: 265 ms
+Compiled 6 VHDL Units
+Built simulation executable C:/Users/Chuky-master/Xilinxs/Proyecto1prueba/to_7seg_tb_isim_beh.exe
+Fuse Memory Usage: 115164 KB
+Fuse CPU Usage: 327 ms

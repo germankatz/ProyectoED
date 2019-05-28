@@ -2,14 +2,14 @@ Command line:
    GeneradorHamming_tb_isim_beh.exe
      -simmode  gui
      -simrunnum  0
-     -socket  49747
+     -socket  49356
 
-Sun May 26 21:08:53 2019
+Tue May 28 09:12:52 2019
 
 
- Elaboration Time: 0.03125 sec
+ Elaboration Time: 0.015625 sec
 
- Current Memory Usage: 650.6 Meg
+ Current Memory Usage: 650.338 Meg
 
  Total Signals          : 7
  Total Nets             : 14
@@ -23,7 +23,7 @@ Total Line Count : 16
 
  Total Simulation Time: 0.03125 sec
 
- Current Memory Usage: 650.6 Meg
+ Current Memory Usage: 650.338 Meg
 
-Sun May 26 21:09:08 2019
+Tue May 28 09:23:46 2019
 

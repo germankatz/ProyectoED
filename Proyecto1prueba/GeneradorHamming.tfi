@@ -1,0 +1,10 @@
+
+
+
+// Instantiate the module
+GeneradorHamming instance_name (
+    .dato(dato), 
+    .dato_hamm_tx(dato_hamm_tx)
+    );
+
+

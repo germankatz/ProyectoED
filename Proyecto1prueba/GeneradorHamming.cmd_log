@@ -4,3 +4,5 @@ map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o Generad
 par -w -intstyle ise -ol high -t 1 GeneradorHamming_map.ncd GeneradorHamming.ncd GeneradorHamming.pcf 
 trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml GeneradorHamming.twx GeneradorHamming.ncd -o GeneradorHamming.twr GeneradorHamming.pcf 
 bitgen -intstyle ise -f GeneradorHamming.ut GeneradorHamming.ncd 
+vhdtdtfi -prj Proyecto1prueba -o C:/Users/Chuky-master/Xilinxs/Proyecto1prueba/GeneradorHamming.tfi -module GeneradorHamming -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror -lib work GeneradorHamming.vhd 
+vhdtdtfi -prj Proyecto1prueba -o C:/Users/Chuky-master/Xilinxs/Proyecto1prueba/GeneradorHamming.vhi -module GeneradorHamming -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work GeneradorHamming.vhd 

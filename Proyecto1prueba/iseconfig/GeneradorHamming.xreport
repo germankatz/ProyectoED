@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2019-05-26T17:30:33</DateModified>
+  <DateModified>2019-05-28T08:29:22</DateModified>
   <ModuleName>GeneradorHamming</ModuleName>
   <SummaryTimeStamp>Unknown</SummaryTimeStamp>
   <SavedFilePath>C:/Users/Chuky-master/Xilinxs/Proyecto1prueba/iseconfig/GeneradorHamming.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>C:/Users/Chuky-master/Xilinxs/Proyecto1prueba</ImplementationReportsDirectory>
+  <ImplementationReportsDirectory>C:/Users/Chuky-master/Xilinxs/Proyecto1prueba\</ImplementationReportsDirectory>
   <DateInitialized>2019-05-26T16:27:52</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>
