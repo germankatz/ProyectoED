@@ -1,0 +1,26 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Sat Jun 01 20:36:02 2019
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "dato_ingresado<0>" LOCATE = SITE "G3" LEVEL 1;
+COMP "dato_ingresado<1>" LOCATE = SITE "F3" LEVEL 1;
+COMP "dato_ingresado<2>" LOCATE = SITE "E2" LEVEL 1;
+COMP "dato_ingresado<3>" LOCATE = SITE "N3" LEVEL 1;
+COMP "pos_error<0>" LOCATE = SITE "P11" LEVEL 1;
+COMP "pos_error<1>" LOCATE = SITE "L3" LEVEL 1;
+COMP "pos_error<2>" LOCATE = SITE "K3" LEVEL 1;
+COMP "pos_error<3>" LOCATE = SITE "B4" LEVEL 1;
+COMP "display_seleccionado<0>" LOCATE = SITE "K14" LEVEL 1;
+COMP "display_seleccionado<1>" LOCATE = SITE "M13" LEVEL 1;
+COMP "display_seleccionado<2>" LOCATE = SITE "J12" LEVEL 1;
+COMP "display_seleccionado<3>" LOCATE = SITE "F12" LEVEL 1;
+COMP "dato_display<0>" LOCATE = SITE "M12" LEVEL 1;
+COMP "dato_display<1>" LOCATE = SITE "L13" LEVEL 1;
+COMP "dato_display<2>" LOCATE = SITE "P12" LEVEL 1;
+COMP "dato_display<3>" LOCATE = SITE "N11" LEVEL 1;
+COMP "dato_display<4>" LOCATE = SITE "N14" LEVEL 1;
+COMP "dato_display<5>" LOCATE = SITE "H12" LEVEL 1;
+COMP "dato_display<6>" LOCATE = SITE "L14" LEVEL 1;
+SCHEMATIC END;
+

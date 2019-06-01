@@ -1,0 +1,22 @@
+
+# PlanAhead Generated physical constraints 
+
+NET "dato_display[6]" LOC = L14;
+NET "dato_display[5]" LOC = H12;
+NET "dato_display[4]" LOC = N14;
+NET "dato_display[3]" LOC = N11;
+NET "dato_display[2]" LOC = P12;
+NET "dato_display[1]" LOC = L13;
+NET "dato_display[0]" LOC = M12;
+NET "display_seleccionado[3]" LOC = F12;
+NET "display_seleccionado[2]" LOC = J12;
+NET "display_seleccionado[1]" LOC = M13;
+NET "display_seleccionado[0]" LOC = K14;
+NET "pos_error[3]" LOC = B4;
+NET "pos_error[2]" LOC = K3;
+NET "pos_error[1]" LOC = L3;
+NET "pos_error[0]" LOC = P11;
+NET "dato_ingresado[3]" LOC = N3;
+NET "dato_ingresado[2]" LOC = E2;
+NET "dato_ingresado[1]" LOC = F3;
+NET "dato_ingresado[0]" LOC = G3;

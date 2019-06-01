@@ -1,0 +1,1 @@
+vhdtdtfi -prj Proyecto1prueba -o C:/Users/Chuky-master/Xilinxs/Proyecto1prueba/led_adm.vhi -module led_adm -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work ../../Downloads/led_adm_vhdl/led_adm_vhdl/counter_2b.vhd -lib work ../../Downloads/led_adm_vhdl/led_adm_vhdl/clk_div.vhd -lib work ../../Downloads/led_adm_vhdl/led_adm_vhdl/led_adm.vhd 

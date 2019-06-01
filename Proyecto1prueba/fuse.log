@@ -1,21 +1,33 @@
-Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt\unwrapped\fuse.exe -intstyle ise -incremental -o C:/Users/Chuky-master/Xilinxs/Proyecto1prueba/to_7seg_tb_isim_beh.exe -prj C:/Users/Chuky-master/Xilinxs/Proyecto1prueba/to_7seg_tb_beh.prj work.to_7seg_tb 
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt\unwrapped\fuse.exe -intstyle ise -incremental -o C:/Users/Chuky-master/Xilinxs/Proyecto1prueba/TopLevel_tb_isim_translate.exe -prj C:/Users/Chuky-master/Xilinxs/Proyecto1prueba/TopLevel_tb_translate.prj work.TopLevel_tb 
 ISim P.20131013 (signature 0x8ef4fb42)
 Number of CPUs detected in this system: 1
 Turning on mult-threading, number of parallel sub-compilation jobs: 0 
 Determining compilation order of HDL files
-Parsing VHDL file "C:/Users/Chuky-master/Xilinxs/Proyecto1prueba/to_7seg.vhd" into library work
-Parsing VHDL file "C:/Users/Chuky-master/Xilinxs/Proyecto1prueba/to_7seg_tb.vhd" into library work
+Parsing VHDL file "C:/Users/Chuky-master/Xilinxs/Proyecto1prueba/netgen/translate/TopLevel_translate.vhd" into library work
+Parsing VHDL file "C:/Users/Chuky-master/Xilinxs/Proyecto1prueba/TopLevel_tb.vhd" into library work
 Starting static elaboration
 Completed static elaboration
-Fuse Memory Usage: 103340 KB
-Fuse CPU Usage: 234 ms
+Fuse Memory Usage: 121004 KB
+Fuse CPU Usage: 483 ms
 Compiling package standard
 Compiling package std_logic_1164
-Compiling package std_logic_arith
-Compiling architecture behavioral of entity to_7seg [to_7seg_default]
-Compiling architecture behavior of entity to_7seg_tb
+Compiling package textio
+Compiling package vital_timing
+Compiling package vcomponents
+Compiling package vital_primitives
+Compiling package vpackage
+Compiling architecture x_zero_v of entity X_ZERO [\X_ZERO("UNPLACED")(1,8)\]
+Compiling architecture x_one_v of entity X_ONE [\X_ONE("UNPLACED")(1,8)\]
+Compiling architecture x_lut3_v of entity X_LUT3 [\X_LUT3(true,true,"UNPLACED",(0,...]
+Compiling architecture x_lut4_v of entity X_LUT4 [\X_LUT4(true,true,"UNPLACED",(0,...]
+Compiling architecture x_buf_v of entity X_BUF [\X_BUF(true,true,"UNPLACED",(0,0...]
+Compiling architecture x_obuf_v of entity X_OBUF [\X_OBUF(true,true,"DONT_CARE",12...]
+Compiling architecture x_roc_v of entity X_ROC [\X_ROC("UNPLACED",100000,"*")(1,...]
+Compiling architecture x_toc_v of entity X_TOC [\X_TOC("UNPLACED",0,"*")(1,8,1,1...]
+Compiling architecture structure of entity TopLevel [toplevel_default]
+Compiling architecture behavior of entity toplevel_tb
 Time Resolution for simulation is 1ps.
-Compiled 6 VHDL Units
-Built simulation executable C:/Users/Chuky-master/Xilinxs/Proyecto1prueba/to_7seg_tb_isim_beh.exe
-Fuse Memory Usage: 115164 KB
-Fuse CPU Usage: 327 ms
+Compiled 40 VHDL Units
+Built simulation executable C:/Users/Chuky-master/Xilinxs/Proyecto1prueba/TopLevel_tb_isim_translate.exe
+Fuse Memory Usage: 145436 KB
+Fuse CPU Usage: 765 ms

@@ -1,0 +1,29 @@
+Command line:
+   clk_adm_tb_isim_translate.exe
+     -simmode  gui
+     -simrunnum  1
+     -socket  49638
+
+Sat Jun 01 20:07:00 2019
+
+
+ Elaboration Time: 0.09375 sec
+
+ Current Memory Usage: 650.662 Meg
+
+ Total Signals          : 2
+ Total Nets             : 3
+ Total Signal Drivers   : 1
+ Total Blocks           : 2
+ Total Primitive Blocks : 2
+ Total Processes        : 1
+ Total Traceable Variables  : 8
+ Total Scalar Nets and Variables : 363
+Total Line Count : 6
+
+ Total Simulation Time: 0.109375 sec
+
+ Current Memory Usage: 650.662 Meg
+
+Sat Jun 01 20:07:19 2019
+

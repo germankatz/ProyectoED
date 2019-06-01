@@ -1,0 +1,88 @@
+
+****** PlanAhead v14.7
+  **** Build 321239 by xbuild on Fri Sep 27 19:31:35 MDT 2013
+    ** Copyright 1986-1999, 2001-2013 Xilinx, Inc. All Rights Reserved.
+
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Common 17-86] Your PlanAhead license expires in -62 day(s)
+INFO: [Device 21-36] Loading parts and site information from C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+source C:/Users/Chuky-master/Xilinxs/Proyecto1prueba/pa.fromHdl.tcl
+# create_project -name Proyecto1prueba -dir "C:/Users/Chuky-master/Xilinxs/Proyecto1prueba/planAhead_run_2" -part xc3s100ecp132-4
+create_project: Time (s): elapsed = 00:00:08 . Memory (MB): peak = 356.676 ; gain = 25.199
+# set_param project.pinAheadLayout yes
+# set srcset [get_property srcset [current_run -impl]]
+# set_property target_constrs_file "TopLevel.ucf" [current_fileset -constrset]
+Adding file 'C:/Users/Chuky-master/Xilinxs/Proyecto1prueba/TopLevel.ucf' to fileset 'constrs_1'
+# set hdlfile [add_files [list {../../Downloads/led_adm_vhdl/led_adm_vhdl/counter_2b.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../../Downloads/led_adm_vhdl/led_adm_vhdl/clk_div.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {mux.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {GeneradorHamming.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {GeneradorError.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {DetectorCorrectorHamming.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {decodificador.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {bcd_a_7_seg.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../../Downloads/led_adm_vhdl/led_adm_vhdl/led_adm.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {TopLevel.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set_property top TopLevel $srcset
+# add_files [list {TopLevel.ucf}] -fileset [get_property constrset [current_run]]
+# open_rtl_design -part xc3s100ecp132-4
+Using Verific elaboration
+Parsing VHDL file "C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/lib/synplify/synattr.vhd" into library synplify
+Parsing VHDL file "C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/lib/synplify/synattr.vhd" into library synplify
+Parsing VHDL file "C:/Users/Chuky-master/Downloads/led_adm_vhdl/led_adm_vhdl/counter_2b.vhd" into library work
+Parsing VHDL file "C:/Users/Chuky-master/Downloads/led_adm_vhdl/led_adm_vhdl/clk_div.vhd" into library work
+Parsing VHDL file "C:/Users/Chuky-master/Xilinxs/Proyecto1prueba/mux.vhd" into library work
+Parsing VHDL file "C:/Users/Chuky-master/Xilinxs/Proyecto1prueba/GeneradorHamming.vhd" into library work
+Parsing VHDL file "C:/Users/Chuky-master/Xilinxs/Proyecto1prueba/GeneradorError.vhd" into library work
+Parsing VHDL file "C:/Users/Chuky-master/Xilinxs/Proyecto1prueba/DetectorCorrectorHamming.vhd" into library work
+Parsing VHDL file "C:/Users/Chuky-master/Xilinxs/Proyecto1prueba/decodificador.vhd" into library work
+Parsing VHDL file "C:/Users/Chuky-master/Xilinxs/Proyecto1prueba/bcd_a_7_seg.vhd" into library work
+Parsing VHDL file "C:/Users/Chuky-master/Downloads/led_adm_vhdl/led_adm_vhdl/led_adm.vhd" into library work
+Parsing VHDL file "C:/Users/Chuky-master/Xilinxs/Proyecto1prueba/TopLevel.vhd" into library work
+INFO: [Designutils 20-910] Reading macro library C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn
+Parsing EDIF File [C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn]
+Finished Parsing EDIF File [C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn]
+Loading clock regions from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s100e/ClockRegion.xml
+Loading clock buffers from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s100e/ClockBuffers.xml
+Loading package from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s100e/cp132/Package.xml
+Loading io standards from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/IOStandards.xml
+INFO: [Device 21-19] Loading pkg sso from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s100e/cp132/SSORules.xml
+Loading list of drcs for the architecture : C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/drc.xml
+INFO: [Timing 38-77] Reading timing library C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/spartan3e-4.lib.
+INFO: [Timing 38-34] Done reading timing library C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/spartan3e-4.lib.
+Parsing UCF File [C:/Users/Chuky-master/Xilinxs/Proyecto1prueba/TopLevel.ucf]
+Finished Parsing UCF File [C:/Users/Chuky-master/Xilinxs/Proyecto1prueba/TopLevel.ucf]
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Phase 0 | Netlist Checksum: 5f45628b
+open_rtl_design: Time (s): elapsed = 00:00:26 . Memory (MB): peak = 423.801 ; gain = 63.977
+update_compile_order -fileset sim_1
+exit
+ERROR: [Common 17-39] 'stop_gui' failed due to earlier errors.
+INFO: [Common 17-206] Exiting PlanAhead at Sat Jun 01 17:50:49 2019...
+INFO: [Common 17-83] Releasing license: PlanAhead

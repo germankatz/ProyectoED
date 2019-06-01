@@ -1,0 +1,4 @@
+vhdl work "../../Downloads/led_adm_vhdl/led_adm_vhdl/counter_2b.vhd"
+vhdl work "../../Downloads/led_adm_vhdl/led_adm_vhdl/clk_div.vhd"
+vhdl work "../../Downloads/led_adm_vhdl/led_adm_vhdl/led_adm.vhd"
+vhdl work "clk_adm_tb.vhd"

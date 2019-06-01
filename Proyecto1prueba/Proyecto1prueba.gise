@@ -22,55 +22,55 @@
   <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="Proyecto1prueba.xise"/>
 
   <files xmlns="http://www.xilinx.com/XMLSchema">
-    <file xil_pn:fileType="FILE_VHDL_INSTTEMPLATE" xil_pn:name="DetectorCorrectorHamming.vhi"/>
-    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="DetectorCorrectorHamming_tb_isim_beh.exe"/>
-    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="DetectorCorrectorHamming_tb_stx_beh.prj"/>
-    <file xil_pn:fileType="FILE_SPL" xil_pn:name="GeneradorError.spl"/>
-    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="GeneradorError.sym" xil_pn:origination="imported"/>
-    <file xil_pn:fileType="FILE_VHDL_INSTTEMPLATE" xil_pn:name="GeneradorError.vhi"/>
-    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="GeneradorError_tb_beh.prj"/>
-    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="GeneradorError_tb_isim_beh.exe"/>
-    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="GeneradorError_tb_isim_beh.wdb"/>
-    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="GeneradorError_tb_stx_beh.prj"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="GeneradorHamming.bld"/>
-    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="GeneradorHamming.cmd_log"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="GeneradorHamming.lso"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="GeneradorHamming.ncd" xil_pn:subbranch="Par"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="GeneradorHamming.ngc"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="GeneradorHamming.ngd"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="GeneradorHamming.ngr"/>
-    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="GeneradorHamming.pad"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAR_REPORT" xil_pn:name="GeneradorHamming.par" xil_pn:subbranch="Par"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="GeneradorHamming.pcf" xil_pn:subbranch="Map"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="GeneradorHamming.prj"/>
-    <file xil_pn:fileType="FILE_TRCE_MISC" xil_pn:name="GeneradorHamming.ptwx"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="GeneradorHamming.stx"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="GeneradorHamming.syr"/>
-    <file xil_pn:fileType="FILE_VERILOG_INSTTEMPLATE" xil_pn:name="GeneradorHamming.tfi"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="GeneradorHamming.twr" xil_pn:subbranch="Par"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="GeneradorHamming.twx" xil_pn:subbranch="Par"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="GeneradorHamming.unroutes" xil_pn:subbranch="Par"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="GeneradorHamming.ut" xil_pn:subbranch="FPGAConfiguration"/>
-    <file xil_pn:fileType="FILE_VHDL_INSTTEMPLATE" xil_pn:name="GeneradorHamming.vhi"/>
-    <file xil_pn:fileType="FILE_XPI" xil_pn:name="GeneradorHamming.xpi"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="GeneradorHamming.xst"/>
-    <file xil_pn:fileType="FILE_NCD" xil_pn:name="GeneradorHamming_guide.ncd" xil_pn:origination="imported"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="GeneradorHamming_map.map" xil_pn:subbranch="Map"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="GeneradorHamming_map.mrp" xil_pn:subbranch="Map"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="GeneradorHamming_map.ncd" xil_pn:subbranch="Map"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="GeneradorHamming_map.ngm" xil_pn:subbranch="Map"/>
-    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="GeneradorHamming_map.xrpt"/>
-    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="GeneradorHamming_ngdbuild.xrpt"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="GeneradorHamming_pad.csv" xil_pn:subbranch="Par"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="GeneradorHamming_pad.txt" xil_pn:subbranch="Par"/>
-    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="GeneradorHamming_par.xrpt"/>
-    <file xil_pn:fileType="FILE_HTML" xil_pn:name="GeneradorHamming_summary.html"/>
-    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="GeneradorHamming_summary.xml"/>
-    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="GeneradorHamming_tb_isim_beh.exe"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="GeneradorHamming_tb_stx_beh.prj"/>
-    <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="GeneradorHamming_usage.xml"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="GeneradorHamming_vhdl.prj"/>
-    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="GeneradorHamming_xst.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name=".lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="TopLevel.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="TopLevel.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="TopLevel.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="TopLevel.ncd" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="TopLevel.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="TopLevel.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="TopLevel.ngr"/>
+    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="TopLevel.pad"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAR_REPORT" xil_pn:name="TopLevel.par" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="TopLevel.pcf" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="TopLevel.prj"/>
+    <file xil_pn:fileType="FILE_TRCE_MISC" xil_pn:name="TopLevel.ptwx"/>
+    <file xil_pn:fileType="FILE_SPL" xil_pn:name="TopLevel.spl"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="TopLevel.stx"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="TopLevel.sym" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="TopLevel.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="TopLevel.twr" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="TopLevel.twx" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="TopLevel.unroutes" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="TopLevel.ut" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:fileType="FILE_XPI" xil_pn:name="TopLevel.xpi"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="TopLevel.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="TopLevel_envsettings.html"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="TopLevel_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="TopLevel_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="TopLevel_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="TopLevel_map.ncd" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="TopLevel_map.ngm" xil_pn:subbranch="Map"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="TopLevel_map.xrpt"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="TopLevel_map_fpga_editor.log"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="TopLevel_ngdbuild.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="TopLevel_pad.csv" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="TopLevel_pad.txt" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="TopLevel_par.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="TopLevel_preroute.twr" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="TopLevel_preroute.twx" xil_pn:subbranch="Map"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="TopLevel_summary.html"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="TopLevel_summary.xml"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="TopLevel_tb_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="TopLevel_tb_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="TopLevel_tb_isim_beh.wdb"/>
+    <file xil_pn:branch="PostTranslateSimulation" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="TopLevel_tb_isim_translate.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="TopLevel_tb_isim_translate.wdb"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="TopLevel_tb_stx_beh.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="TopLevel_tb_translate.prj"/>
+    <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="TopLevel_usage.xml"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="TopLevel_vhdl.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="TopLevel_xst.xrpt"/>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
     <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/bitgen.xmsgs"/>
     <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/map.xmsgs"/>
@@ -78,98 +78,327 @@
     <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/par.xmsgs"/>
     <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/trce.xmsgs"/>
     <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="bcd_a_7_seg_tb_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="bcd_a_7seg_hex_tb_beh.prj"/>
+    <file xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="bcd_a_7seg_hex_tb_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="bcd_a_7seg_hex_tb_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="bcd_a_7seg_hex_tb_stx_beh.prj"/>
+    <file xil_pn:branch="PostTranslateSimulation" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="clk_adm_tb_isim_translate.exe"/>
+    <file xil_pn:fileType="FILE_VHDL_INSTTEMPLATE" xil_pn:name="decodificador.vhi"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="decodificador_tb_isim_beh.exe"/>
     <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="generadorhamming.bgn" xil_pn:subbranch="FPGAConfiguration"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BIT" xil_pn:name="generadorhamming.bit" xil_pn:subbranch="FPGAConfiguration"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_DRC" xil_pn:name="generadorhamming.drc" xil_pn:subbranch="FPGAConfiguration"/>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
-    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
-    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
+    <file xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd">
+      <branch xil_pn:name="BehavioralSim"/>
+      <branch xil_pn:name="PostTranslateSimulation"/>
+    </file>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log">
+      <branch xil_pn:name="BehavioralSim"/>
+      <branch xil_pn:name="PostTranslateSimulation"/>
+    </file>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="mux_tb_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="mux_tb_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="netgen"/>
+    <file xil_pn:branch="PostMapSimulation" xil_pn:fileType="FILE_NETGEN_REPORT" xil_pn:name="netgen/map/TopLevel_map.nlf"/>
+    <file xil_pn:branch="PostMapSimulation" xil_pn:fileType="FILE_SDF" xil_pn:name="netgen/map/TopLevel_map.sdf"/>
+    <file xil_pn:branch="PostMapSimulation" xil_pn:fileType="FILE_VHDL" xil_pn:name="netgen/map/TopLevel_map.vhd"/>
+    <file xil_pn:branch="PostSynthSim" xil_pn:fileType="FILE_NETGEN_REPORT" xil_pn:name="netgen/synthesis/TopLevel_synthesis.nlf"/>
+    <file xil_pn:branch="PostSynthSim" xil_pn:fileType="FILE_VHDL" xil_pn:name="netgen/synthesis/TopLevel_synthesis.vhd"/>
+    <file xil_pn:branch="PostTranslateSimulation" xil_pn:fileType="FILE_NETGEN_REPORT" xil_pn:name="netgen/translate/TopLevel_translate.nlf"/>
+    <file xil_pn:branch="PostTranslateSimulation" xil_pn:fileType="FILE_VHDL" xil_pn:name="netgen/translate/TopLevel_translate.vhd"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="planAhead_run_1"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="planAhead_run_2"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="planAhead_run_3"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="toplevel.bgn" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BIT" xil_pn:name="toplevel.bit" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_DRC" xil_pn:name="toplevel.drc" xil_pn:subbranch="FPGAConfiguration"/>
     <file xil_pn:fileType="FILE_HTML" xil_pn:name="usage_statistics_webtalk.html"/>
     <file xil_pn:fileType="FILE_LOG" xil_pn:name="webtalk.log"/>
     <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
-    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
+    <file xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini">
+      <branch xil_pn:name="BehavioralSim"/>
+      <branch xil_pn:name="PostTranslateSimulation"/>
+    </file>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xlnx_auto_0_xdb"/>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
   </files>
 
   <transforms xmlns="http://www.xilinx.com/XMLSchema">
-    <transform xil_pn:end_ts="1558899588" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1558899588">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
-    </transform>
-    <transform xil_pn:end_ts="1558915925" xil_pn:in_ck="1714964115780744557" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1558915925">
+    <transform xil_pn:end_ts="1559429438" xil_pn:in_ck="-8583733652994032986" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1559429438">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForInputs"/>
-      <status xil_pn:value="InputAdded"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
       <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="../../Downloads/led_adm_vhdl/led_adm_vhdl/clk_div.vhd"/>
+      <outfile xil_pn:name="../../Downloads/led_adm_vhdl/led_adm_vhdl/counter_2b.vhd"/>
+      <outfile xil_pn:name="../../Downloads/led_adm_vhdl/led_adm_vhdl/led_adm.vhd"/>
       <outfile xil_pn:name="DetectorCorrectorHamming.vhd"/>
       <outfile xil_pn:name="DetectorCorrectorHamming_tb.vhd"/>
       <outfile xil_pn:name="GeneradorError.vhd"/>
       <outfile xil_pn:name="GeneradorError_tb.vhd"/>
       <outfile xil_pn:name="GeneradorHamming.vhd"/>
       <outfile xil_pn:name="GeneradorHamming_tb.vhd"/>
+      <outfile xil_pn:name="TopLevel.vhd"/>
+      <outfile xil_pn:name="TopLevel_tb.vhd"/>
+      <outfile xil_pn:name="bcd_a_7_seg.vhd"/>
+      <outfile xil_pn:name="bcd_a_7_seg_tb.vhd"/>
+      <outfile xil_pn:name="decodificador.vhd"/>
+      <outfile xil_pn:name="decodificador_tb.vhd"/>
+      <outfile xil_pn:name="mux.vhd"/>
+      <outfile xil_pn:name="mux_tb.vhd"/>
     </transform>
-    <transform xil_pn:end_ts="1559046257" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-4212811509178663626" xil_pn:start_ts="1559046257">
+    <transform xil_pn:end_ts="1559427750" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-6417879768481499082" xil_pn:start_ts="1559427750">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForProperties"/>
     </transform>
-    <transform xil_pn:end_ts="1559046257" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="7236824957037524728" xil_pn:start_ts="1559046257">
+    <transform xil_pn:end_ts="1559427750" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-4527772937859024968" xil_pn:start_ts="1559427750">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForProperties"/>
     </transform>
-    <transform xil_pn:end_ts="1558899588" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="5243240193517703664" xil_pn:start_ts="1558899588">
+    <transform xil_pn:end_ts="1559421568" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="2557528205612688377" xil_pn:start_ts="1559421568">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForProperties"/>
     </transform>
-    <transform xil_pn:end_ts="1558915926" xil_pn:in_ck="1714964115780744557" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1558915926">
+    <transform xil_pn:end_ts="1559429438" xil_pn:in_ck="-8583733652994032986" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1559429438">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
       <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="../../Downloads/led_adm_vhdl/led_adm_vhdl/clk_div.vhd"/>
+      <outfile xil_pn:name="../../Downloads/led_adm_vhdl/led_adm_vhdl/counter_2b.vhd"/>
+      <outfile xil_pn:name="../../Downloads/led_adm_vhdl/led_adm_vhdl/led_adm.vhd"/>
       <outfile xil_pn:name="DetectorCorrectorHamming.vhd"/>
       <outfile xil_pn:name="DetectorCorrectorHamming_tb.vhd"/>
       <outfile xil_pn:name="GeneradorError.vhd"/>
       <outfile xil_pn:name="GeneradorError_tb.vhd"/>
       <outfile xil_pn:name="GeneradorHamming.vhd"/>
       <outfile xil_pn:name="GeneradorHamming_tb.vhd"/>
+      <outfile xil_pn:name="TopLevel.vhd"/>
+      <outfile xil_pn:name="TopLevel_tb.vhd"/>
+      <outfile xil_pn:name="bcd_a_7_seg.vhd"/>
+      <outfile xil_pn:name="bcd_a_7_seg_tb.vhd"/>
+      <outfile xil_pn:name="decodificador.vhd"/>
+      <outfile xil_pn:name="decodificador_tb.vhd"/>
+      <outfile xil_pn:name="mux.vhd"/>
+      <outfile xil_pn:name="mux_tb.vhd"/>
     </transform>
-    <transform xil_pn:end_ts="1559046259" xil_pn:in_ck="1714964115780744557" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-6638997679172196860" xil_pn:start_ts="1559046257">
+    <transform xil_pn:end_ts="1559429442" xil_pn:in_ck="-8583733652994032986" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-3158204554956819122" xil_pn:start_ts="1559429438">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
       <status xil_pn:value="OutOfDateForProperties"/>
       <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
       <status xil_pn:value="OutputChanged"/>
-      <outfile xil_pn:name="GeneradorError_tb_beh.prj"/>
-      <outfile xil_pn:name="GeneradorError_tb_isim_beh.exe"/>
+      <status xil_pn:value="OutputRemoved"/>
+      <outfile xil_pn:name="TopLevel_tb_isim_beh.exe"/>
       <outfile xil_pn:name="fuse.log"/>
       <outfile xil_pn:name="isim"/>
       <outfile xil_pn:name="isim.log"/>
       <outfile xil_pn:name="xilinxsim.ini"/>
     </transform>
-    <transform xil_pn:end_ts="1559046259" xil_pn:in_ck="2310714018975273715" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-1515891782328559961" xil_pn:start_ts="1559046259">
+    <transform xil_pn:end_ts="1559429442" xil_pn:in_ck="-5081978236752169710" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-3165499859492085445" xil_pn:start_ts="1559429442">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
       <status xil_pn:value="OutputChanged"/>
-      <outfile xil_pn:name="GeneradorError_tb_isim_beh.wdb"/>
+      <status xil_pn:value="OutputRemoved"/>
       <outfile xil_pn:name="isim.cmd"/>
       <outfile xil_pn:name="isim.log"/>
     </transform>
-    <transform xil_pn:end_ts="1558902686" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1558902686">
+    <transform xil_pn:end_ts="1559421758" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1559421758">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1558902698" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="-7953993686478586416" xil_pn:start_ts="1558902697">
+    <transform xil_pn:end_ts="1559421758" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="1908061066030037360" xil_pn:start_ts="1559421758">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForProperties"/>
+    </transform>
+    <transform xil_pn:end_ts="1559421758" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="2557528205612688377" xil_pn:start_ts="1559421758">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1559421758" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1559421758">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1559421758" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="-5194345341724797266" xil_pn:start_ts="1559421758">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1559421758" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="2988080280822507185" xil_pn:start_ts="1559421758">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1559421758" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="-7392582582580196733" xil_pn:start_ts="1559421758">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1559432068" xil_pn:in_ck="8442147766588539898" xil_pn:name="TRANEXT_xstsynthesize_spartan3e" xil_pn:prop_ck="-5398852311886647146" xil_pn:start_ts="1559432062">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name=".lso"/>
+      <outfile xil_pn:name="TopLevel.lso"/>
+      <outfile xil_pn:name="TopLevel.ngc"/>
+      <outfile xil_pn:name="TopLevel.ngr"/>
+      <outfile xil_pn:name="TopLevel.prj"/>
+      <outfile xil_pn:name="TopLevel.stx"/>
+      <outfile xil_pn:name="TopLevel.syr"/>
+      <outfile xil_pn:name="TopLevel.xst"/>
+      <outfile xil_pn:name="TopLevel_tb_stx_beh.prj"/>
+      <outfile xil_pn:name="TopLevel_tb_translate.prj"/>
+      <outfile xil_pn:name="TopLevel_vhdl.prj"/>
+      <outfile xil_pn:name="TopLevel_xst.xrpt"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+    <transform xil_pn:end_ts="1559422317" xil_pn:in_ck="4420851648763910583" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="-5299430572891783389" xil_pn:start_ts="1559422317">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1559432072" xil_pn:in_ck="-1844089844075542616" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="5362742094334032710" xil_pn:start_ts="1559432068">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="TopLevel.bld"/>
+      <outfile xil_pn:name="TopLevel.ngd"/>
+      <outfile xil_pn:name="TopLevel_ngdbuild.xrpt"/>
+      <outfile xil_pn:name="_ngo"/>
+      <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1559432076" xil_pn:in_ck="-176200329122557655" xil_pn:name="TRANEXT_map_spartan3" xil_pn:prop_ck="-1303429204059397298" xil_pn:start_ts="1559432072">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="TopLevel.pcf"/>
+      <outfile xil_pn:name="TopLevel_map.map"/>
+      <outfile xil_pn:name="TopLevel_map.mrp"/>
+      <outfile xil_pn:name="TopLevel_map.ncd"/>
+      <outfile xil_pn:name="TopLevel_map.ngm"/>
+      <outfile xil_pn:name="TopLevel_map.xrpt"/>
+      <outfile xil_pn:name="TopLevel_summary.xml"/>
+      <outfile xil_pn:name="TopLevel_usage.xml"/>
+      <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1559432084" xil_pn:in_ck="8095735819186199618" xil_pn:name="TRANEXT_par_spartan3" xil_pn:prop_ck="1934304854298957634" xil_pn:start_ts="1559432076">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="TopLevel.ncd"/>
+      <outfile xil_pn:name="TopLevel.pad"/>
+      <outfile xil_pn:name="TopLevel.par"/>
+      <outfile xil_pn:name="TopLevel.ptwx"/>
+      <outfile xil_pn:name="TopLevel.unroutes"/>
+      <outfile xil_pn:name="TopLevel.xpi"/>
+      <outfile xil_pn:name="TopLevel_pad.csv"/>
+      <outfile xil_pn:name="TopLevel_pad.txt"/>
+      <outfile xil_pn:name="TopLevel_par.xrpt"/>
+      <outfile xil_pn:name="_xmsgs/par.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1559432091" xil_pn:in_ck="4420851648763902958" xil_pn:name="TRANEXT_bitFile_spartan3e" xil_pn:prop_ck="-7817169320884990698" xil_pn:start_ts="1559432084">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="TopLevel.ut"/>
+      <outfile xil_pn:name="_xmsgs/bitgen.xmsgs"/>
+      <outfile xil_pn:name="toplevel.bgn"/>
+      <outfile xil_pn:name="toplevel.bit"/>
+      <outfile xil_pn:name="toplevel.drc"/>
+      <outfile xil_pn:name="usage_statistics_webtalk.html"/>
+      <outfile xil_pn:name="webtalk.log"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+    </transform>
+    <transform xil_pn:end_ts="1559432084" xil_pn:in_ck="1023312581598046885" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416186" xil_pn:start_ts="1559432081">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="TopLevel.twr"/>
+      <outfile xil_pn:name="TopLevel.twx"/>
+      <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1559422427" xil_pn:in_ck="-5218521315574057845" xil_pn:name="TRAN_postMapSimModel" xil_pn:prop_ck="-9068088503548858690" xil_pn:start_ts="1559422423">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="netgen"/>
+      <outfile xil_pn:name="netgen/map/TopLevel_map.nlf"/>
+      <outfile xil_pn:name="netgen/map/TopLevel_map.sdf"/>
+      <outfile xil_pn:name="netgen/map/TopLevel_map.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1559422410" xil_pn:in_ck="8095735819186199618" xil_pn:name="TRAN_preRouteTrce" xil_pn:prop_ck="722859607460791354" xil_pn:start_ts="1559422408">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="TopLevel_preroute.twr"/>
+      <outfile xil_pn:name="TopLevel_preroute.twx"/>
+      <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1559431417" xil_pn:in_ck="4420851648763903090" xil_pn:name="TRAN_postXlateSimModel" xil_pn:prop_ck="-5665082592342105299" xil_pn:start_ts="1559431415">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <outfile xil_pn:name="netgen"/>
+      <outfile xil_pn:name="netgen/translate/TopLevel_translate.nlf"/>
+      <outfile xil_pn:name="netgen/translate/TopLevel_translate.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1559431417" xil_pn:in_ck="-4777089543370477935" xil_pn:name="TRAN_copyPost-TranslateAbstractToPreSimulation" xil_pn:start_ts="1559431417">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForPredecessor"/>
+      <outfile xil_pn:name="DetectorCorrectorHamming_tb.vhd"/>
+      <outfile xil_pn:name="GeneradorError_tb.vhd"/>
+      <outfile xil_pn:name="GeneradorHamming_tb.vhd"/>
+      <outfile xil_pn:name="TopLevel_tb.vhd"/>
+      <outfile xil_pn:name="bcd_a_7_seg_tb.vhd"/>
+      <outfile xil_pn:name="clk_adm_tb.vhd"/>
+      <outfile xil_pn:name="decodificador_tb.vhd"/>
+      <outfile xil_pn:name="mux_tb.vhd"/>
+      <outfile xil_pn:name="netgen/translate/TopLevel_translate.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1559431422" xil_pn:in_ck="-4777089543370477935" xil_pn:name="TRAN_ISimulatePostTranslateModelRunFuse" xil_pn:prop_ck="2802457899376368590" xil_pn:start_ts="1559431417">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="TopLevel_tb_isim_translate.exe"/>
+      <outfile xil_pn:name="TopLevel_tb_translate.prj"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+    </transform>
+    <transform xil_pn:end_ts="1559431422" xil_pn:in_ck="-1259628297216690596" xil_pn:name="TRAN_ISimulatePostTranslateModel" xil_pn:prop_ck="4067655311074413933" xil_pn:start_ts="1559431422">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="TopLevel_tb_isim_translate.wdb"/>
+      <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="isim.log"/>
+    </transform>
+    <transform xil_pn:end_ts="1559431825" xil_pn:in_ck="4420851648763903089" xil_pn:name="TRAN_postSynthesisSimModel" xil_pn:prop_ck="4920658947749824754" xil_pn:start_ts="1559431824">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <outfile xil_pn:name="netgen"/>
+      <outfile xil_pn:name="netgen/synthesis/TopLevel_synthesis.nlf"/>
+      <outfile xil_pn:name="netgen/synthesis/TopLevel_synthesis.vhd"/>
     </transform>
   </transforms>
 

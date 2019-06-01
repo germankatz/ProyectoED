@@ -1,0 +1,123 @@
+xst -intstyle ise -ifn "C:/Users/Chuky-master/Xilinxs/Proyecto1prueba/TopLevel.xst" -ofn "C:/Users/Chuky-master/Xilinxs/Proyecto1prueba/TopLevel.syr" 
+xst -intstyle ise -ifn "C:/Users/Chuky-master/Xilinxs/Proyecto1prueba/TopLevel.xst" -ofn "C:/Users/Chuky-master/Xilinxs/Proyecto1prueba/TopLevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc TopLevel.ucf -p xc3s100e-cp132-4 TopLevel.ngc TopLevel.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o TopLevel_map.ncd TopLevel.ngd TopLevel.pcf 
+par -w -intstyle ise -ol high -t 1 TopLevel_map.ncd TopLevel.ncd TopLevel.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TopLevel.twx TopLevel.ncd -o TopLevel.twr TopLevel.pcf -ucf TopLevel.ucf 
+bitgen -intstyle ise -f TopLevel.ut TopLevel.ncd 
+netgen -intstyle ise -ar Structure -tm TopLevel -w -dir netgen/synthesis -ofmt vhdl -sim TopLevel.ngc TopLevel_synthesis.vhd 
+xst -intstyle ise -ifn "C:/Users/Chuky-master/Xilinxs/Proyecto1prueba/TopLevel.xst" -ofn "C:/Users/Chuky-master/Xilinxs/Proyecto1prueba/TopLevel.syr" 
+netgen -intstyle ise -ar Structure -tm TopLevel -w -dir netgen/synthesis -ofmt vhdl -sim TopLevel.ngc TopLevel_synthesis.vhd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc TopLevel.ucf -p xc3s100e-cp132-4 TopLevel.ngc TopLevel.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o TopLevel_map.ncd TopLevel.ngd TopLevel.pcf 
+par -w -intstyle ise -ol high -t 1 TopLevel_map.ncd TopLevel.ncd TopLevel.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TopLevel.twx TopLevel.ncd -o TopLevel.twr TopLevel.pcf -ucf TopLevel.ucf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TopLevel_preroute.twx TopLevel_map.ncd -o TopLevel_preroute.twr TopLevel.pcf -ucf TopLevel.ucf 
+netgen -intstyle ise -s 4  -pcf TopLevel.pcf -rpw 100 -tpw 0 -ar Structure -tm TopLevel -w -dir netgen/map -ofmt vhdl -sim TopLevel_map.ncd TopLevel_map.vhd 
+bitgen -intstyle ise -f TopLevel.ut TopLevel.ncd 
+xst -intstyle ise -ifn "C:/Users/Chuky-master/Xilinxs/Proyecto1prueba/TopLevel.xst" -ofn "C:/Users/Chuky-master/Xilinxs/Proyecto1prueba/TopLevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc TopLevel.ucf -p xc3s100e-cp132-4 TopLevel.ngc TopLevel.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o TopLevel_map.ncd TopLevel.ngd TopLevel.pcf 
+par -w -intstyle ise -ol high -t 1 TopLevel_map.ncd TopLevel.ncd TopLevel.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TopLevel.twx TopLevel.ncd -o TopLevel.twr TopLevel.pcf -ucf TopLevel.ucf 
+bitgen -intstyle ise -f TopLevel.ut TopLevel.ncd 
+xst -intstyle ise -ifn "C:/Users/Chuky-master/Xilinxs/Proyecto1prueba/TopLevel.xst" -ofn "C:/Users/Chuky-master/Xilinxs/Proyecto1prueba/TopLevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc TopLevel.ucf -p xc3s100e-cp132-4 TopLevel.ngc TopLevel.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o TopLevel_map.ncd TopLevel.ngd TopLevel.pcf 
+par -w -intstyle ise -ol high -t 1 TopLevel_map.ncd TopLevel.ncd TopLevel.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TopLevel.twx TopLevel.ncd -o TopLevel.twr TopLevel.pcf -ucf TopLevel.ucf 
+xst -intstyle ise -ifn "C:/Users/Chuky-master/Xilinxs/Proyecto1prueba/TopLevel.xst" -ofn "C:/Users/Chuky-master/Xilinxs/Proyecto1prueba/TopLevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc TopLevel.ucf -p xc3s100e-cp132-4 TopLevel.ngc TopLevel.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o TopLevel_map.ncd TopLevel.ngd TopLevel.pcf 
+par -w -intstyle ise -ol high -t 1 TopLevel_map.ncd TopLevel.ncd TopLevel.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TopLevel.twx TopLevel.ncd -o TopLevel.twr TopLevel.pcf -ucf TopLevel.ucf 
+bitgen -intstyle ise -f TopLevel.ut TopLevel.ncd 
+bitgen -intstyle ise -f TopLevel.ut TopLevel.ncd 
+vhdtdtfi -lib work ../../Downloads/led_adm_vhdl/led_adm_vhdl/counter_2b.vhd -lib work ../../Downloads/led_adm_vhdl/led_adm_vhdl/clk_div.vhd -lib work mux.vhd -lib work GeneradorHamming.vhd -lib work GeneradorError.vhd -lib work DetectorCorrectorHamming.vhd -lib work decodificador.vhd -lib work bcd_a_7_seg.vhd -lib work ../../Downloads/led_adm_vhdl/led_adm_vhdl/led_adm.vhd -lib work TopLevel.vhd -prj Proyecto1prueba -o TopLevel.spl -module TopLevel -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e TopLevel.spl C:/Users/Chuky-master/Xilinxs/Proyecto1prueba/TopLevel.sym 
+xst -intstyle ise -ifn "C:/Users/Chuky-master/Xilinxs/Proyecto1prueba/TopLevel.xst" -ofn "C:/Users/Chuky-master/Xilinxs/Proyecto1prueba/TopLevel.syr" 
+netgen -intstyle ise -rpw 100 -tpw 0 -ar Structure -tm TopLevel -w -dir netgen/translate -ofmt vhdl -sim TopLevel.ngd TopLevel_translate.vhd 
+xst -intstyle ise -ifn "C:/Users/Chuky-master/Xilinxs/Proyecto1prueba/TopLevel.xst" -ofn "C:/Users/Chuky-master/Xilinxs/Proyecto1prueba/TopLevel.syr" 
+xst -intstyle ise -ifn "C:/Users/Chuky-master/Xilinxs/Proyecto1prueba/TopLevel.xst" -ofn "C:/Users/Chuky-master/Xilinxs/Proyecto1prueba/TopLevel.syr" 
+xst -intstyle ise -ifn "C:/Users/Chuky-master/Xilinxs/Proyecto1prueba/TopLevel.xst" -ofn "C:/Users/Chuky-master/Xilinxs/Proyecto1prueba/TopLevel.syr" 
+xst -intstyle ise -ifn "C:/Users/Chuky-master/Xilinxs/Proyecto1prueba/TopLevel.xst" -ofn "C:/Users/Chuky-master/Xilinxs/Proyecto1prueba/TopLevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc TopLevel.ucf -p xc3s100e-cp132-4 TopLevel.ngc TopLevel.ngd  
+netgen -intstyle ise -rpw 100 -tpw 0 -ar Structure -tm TopLevel -w -dir netgen/translate -ofmt vhdl -sim TopLevel.ngd TopLevel_translate.vhd 
+xst -intstyle ise -ifn "C:/Users/Chuky-master/Xilinxs/Proyecto1prueba/TopLevel.xst" -ofn "C:/Users/Chuky-master/Xilinxs/Proyecto1prueba/TopLevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc TopLevel.ucf -p xc3s100e-cp132-4 TopLevel.ngc TopLevel.ngd  
+netgen -intstyle ise -rpw 100 -tpw 0 -ar Structure -tm TopLevel -w -dir netgen/translate -ofmt vhdl -sim TopLevel.ngd TopLevel_translate.vhd 
+xst -intstyle ise -ifn "C:/Users/Chuky-master/Xilinxs/Proyecto1prueba/TopLevel.xst" -ofn "C:/Users/Chuky-master/Xilinxs/Proyecto1prueba/TopLevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc TopLevel.ucf -p xc3s100e-cp132-4 TopLevel.ngc TopLevel.ngd  
+netgen -intstyle ise -rpw 100 -tpw 0 -ar Structure -tm TopLevel -w -dir netgen/translate -ofmt vhdl -sim TopLevel.ngd TopLevel_translate.vhd 
+xst -intstyle ise -ifn "C:/Users/Chuky-master/Xilinxs/Proyecto1prueba/TopLevel.xst" -ofn "C:/Users/Chuky-master/Xilinxs/Proyecto1prueba/TopLevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc TopLevel.ucf -p xc3s100e-cp132-4 TopLevel.ngc TopLevel.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o TopLevel_map.ncd TopLevel.ngd TopLevel.pcf 
+par -w -intstyle ise -ol high -t 1 TopLevel_map.ncd TopLevel.ncd TopLevel.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TopLevel.twx TopLevel.ncd -o TopLevel.twr TopLevel.pcf -ucf TopLevel.ucf 
+bitgen -intstyle ise -f TopLevel.ut TopLevel.ncd 
+xst -intstyle ise -ifn "C:/Users/Chuky-master/Xilinxs/Proyecto1prueba/TopLevel.xst" -ofn "C:/Users/Chuky-master/Xilinxs/Proyecto1prueba/TopLevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc TopLevel.ucf -p xc3s100e-cp132-4 TopLevel.ngc TopLevel.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o TopLevel_map.ncd TopLevel.ngd TopLevel.pcf 
+par -w -intstyle ise -ol high -t 1 TopLevel_map.ncd TopLevel.ncd TopLevel.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TopLevel.twx TopLevel.ncd -o TopLevel.twr TopLevel.pcf -ucf TopLevel.ucf 
+bitgen -intstyle ise -f TopLevel.ut TopLevel.ncd 
+xst -intstyle ise -ifn "C:/Users/Chuky-master/Xilinxs/Proyecto1prueba/TopLevel.xst" -ofn "C:/Users/Chuky-master/Xilinxs/Proyecto1prueba/TopLevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc TopLevel.ucf -p xc3s100e-cp132-4 TopLevel.ngc TopLevel.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o TopLevel_map.ncd TopLevel.ngd TopLevel.pcf 
+par -w -intstyle ise -ol high -t 1 TopLevel_map.ncd TopLevel.ncd TopLevel.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TopLevel.twx TopLevel.ncd -o TopLevel.twr TopLevel.pcf -ucf TopLevel.ucf 
+bitgen -intstyle ise -f TopLevel.ut TopLevel.ncd 
+xst -intstyle ise -ifn "C:/Users/Chuky-master/Xilinxs/Proyecto1prueba/TopLevel.xst" -ofn "C:/Users/Chuky-master/Xilinxs/Proyecto1prueba/TopLevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc TopLevel.ucf -p xc3s100e-cp132-4 TopLevel.ngc TopLevel.ngd  
+netgen -intstyle ise -rpw 100 -tpw 0 -ar Structure -tm TopLevel -w -dir netgen/translate -ofmt vhdl -sim TopLevel.ngd TopLevel_translate.vhd 
+xst -intstyle ise -ifn "C:/Users/Chuky-master/Xilinxs/Proyecto1prueba/TopLevel.xst" -ofn "C:/Users/Chuky-master/Xilinxs/Proyecto1prueba/TopLevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc TopLevel.ucf -p xc3s100e-cp132-4 TopLevel.ngc TopLevel.ngd  
+netgen -intstyle ise -rpw 100 -tpw 0 -ar Structure -tm TopLevel -w -dir netgen/translate -ofmt vhdl -sim TopLevel.ngd TopLevel_translate.vhd 
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o TopLevel_map.ncd TopLevel.ngd TopLevel.pcf 
+par -w -intstyle ise -ol high -t 1 TopLevel_map.ncd TopLevel.ncd TopLevel.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TopLevel.twx TopLevel.ncd -o TopLevel.twr TopLevel.pcf -ucf TopLevel.ucf 
+bitgen -intstyle ise -f TopLevel.ut TopLevel.ncd 
+xst -intstyle ise -ifn "C:/Users/Chuky-master/Xilinxs/Proyecto1prueba/TopLevel.xst" -ofn "C:/Users/Chuky-master/Xilinxs/Proyecto1prueba/TopLevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc TopLevel.ucf -p xc3s100e-cp132-4 TopLevel.ngc TopLevel.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o TopLevel_map.ncd TopLevel.ngd TopLevel.pcf 
+par -w -intstyle ise -ol high -t 1 TopLevel_map.ncd TopLevel.ncd TopLevel.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TopLevel.twx TopLevel.ncd -o TopLevel.twr TopLevel.pcf -ucf TopLevel.ucf 
+bitgen -intstyle ise -f TopLevel.ut TopLevel.ncd 
+xst -intstyle ise -ifn "C:/Users/Chuky-master/Xilinxs/Proyecto1prueba/TopLevel.xst" -ofn "C:/Users/Chuky-master/Xilinxs/Proyecto1prueba/TopLevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc TopLevel.ucf -p xc3s100e-cp132-4 TopLevel.ngc TopLevel.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o TopLevel_map.ncd TopLevel.ngd TopLevel.pcf 
+par -w -intstyle ise -ol high -t 1 TopLevel_map.ncd TopLevel.ncd TopLevel.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TopLevel.twx TopLevel.ncd -o TopLevel.twr TopLevel.pcf -ucf TopLevel.ucf 
+bitgen -intstyle ise -f TopLevel.ut TopLevel.ncd 
+xst -intstyle ise -ifn "C:/Users/Chuky-master/Xilinxs/Proyecto1prueba/TopLevel.xst" -ofn "C:/Users/Chuky-master/Xilinxs/Proyecto1prueba/TopLevel.syr" 
+netgen -intstyle ise -ar Structure -tm TopLevel -w -dir netgen/synthesis -ofmt vhdl -sim TopLevel.ngc TopLevel_synthesis.vhd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc TopLevel.ucf -p xc3s100e-cp132-4 TopLevel.ngc TopLevel.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o TopLevel_map.ncd TopLevel.ngd TopLevel.pcf 
+par -w -intstyle ise -ol high -t 1 TopLevel_map.ncd TopLevel.ncd TopLevel.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TopLevel.twx TopLevel.ncd -o TopLevel.twr TopLevel.pcf -ucf TopLevel.ucf 
+bitgen -intstyle ise -f TopLevel.ut TopLevel.ncd 
+xst -intstyle ise -ifn "C:/Users/Chuky-master/Xilinxs/Proyecto1prueba/TopLevel.xst" -ofn "C:/Users/Chuky-master/Xilinxs/Proyecto1prueba/TopLevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc TopLevel.ucf -p xc3s100e-cp132-4 TopLevel.ngc TopLevel.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o TopLevel_map.ncd TopLevel.ngd TopLevel.pcf 
+par -w -intstyle ise -ol high -t 1 TopLevel_map.ncd TopLevel.ncd TopLevel.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TopLevel.twx TopLevel.ncd -o TopLevel.twr TopLevel.pcf -ucf TopLevel.ucf 
+bitgen -intstyle ise -f TopLevel.ut TopLevel.ncd 
+xst -intstyle ise -ifn "C:/Users/Chuky-master/Xilinxs/Proyecto1prueba/TopLevel.xst" -ofn "C:/Users/Chuky-master/Xilinxs/Proyecto1prueba/TopLevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc TopLevel.ucf -p xc3s100e-cp132-4 TopLevel.ngc TopLevel.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o TopLevel_map.ncd TopLevel.ngd TopLevel.pcf 
+par -w -intstyle ise -ol high -t 1 TopLevel_map.ncd TopLevel.ncd TopLevel.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TopLevel.twx TopLevel.ncd -o TopLevel.twr TopLevel.pcf -ucf TopLevel.ucf 
+bitgen -intstyle ise -f TopLevel.ut TopLevel.ncd 
+xst -intstyle ise -ifn "C:/Users/Chuky-master/Xilinxs/Proyecto1prueba/TopLevel.xst" -ofn "C:/Users/Chuky-master/Xilinxs/Proyecto1prueba/TopLevel.syr" 
+xst -intstyle ise -ifn "C:/Users/Chuky-master/Xilinxs/Proyecto1prueba/TopLevel.xst" -ofn "C:/Users/Chuky-master/Xilinxs/Proyecto1prueba/TopLevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc TopLevel.ucf -p xc3s100e-cp132-4 TopLevel.ngc TopLevel.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o TopLevel_map.ncd TopLevel.ngd TopLevel.pcf 
+par -w -intstyle ise -ol high -t 1 TopLevel_map.ncd TopLevel.ncd TopLevel.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TopLevel.twx TopLevel.ncd -o TopLevel.twr TopLevel.pcf -ucf TopLevel.ucf 
+bitgen -intstyle ise -f TopLevel.ut TopLevel.ncd 
+xst -intstyle ise -ifn "C:/Users/Chuky-master/Xilinxs/Proyecto1prueba/TopLevel.xst" -ofn "C:/Users/Chuky-master/Xilinxs/Proyecto1prueba/TopLevel.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc TopLevel.ucf -p xc3s100e-cp132-4 TopLevel.ngc TopLevel.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o TopLevel_map.ncd TopLevel.ngd TopLevel.pcf 
+par -w -intstyle ise -ol high -t 1 TopLevel_map.ncd TopLevel.ncd TopLevel.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TopLevel.twx TopLevel.ncd -o TopLevel.twr TopLevel.pcf -ucf TopLevel.ucf 
+bitgen -intstyle ise -f TopLevel.ut TopLevel.ncd 

@@ -1,8 +1,71 @@
-V3 3
+V3 39
+FL C:/Users/Chuky-master/Downloads/led_adm_vhdl/led_adm_vhdl/clk_div.vhd 2019/05/28.09:46:24 P.20131013
+EN work/clk_div 1559432151 \
+      FL C:/Users/Chuky-master/Downloads/led_adm_vhdl/led_adm_vhdl/clk_div.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/clk_div/Behavioral 1559432152 \
+      FL C:/Users/Chuky-master/Downloads/led_adm_vhdl/led_adm_vhdl/clk_div.vhd \
+      EN work/clk_div 1559432151
+FL C:/Users/Chuky-master/Downloads/led_adm_vhdl/led_adm_vhdl/counter_2b.vhd 2019/05/28.09:46:24 P.20131013
+EN work/counter_2b 1559432153 \
+      FL C:/Users/Chuky-master/Downloads/led_adm_vhdl/led_adm_vhdl/counter_2b.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/counter_2b/Behavioral 1559432154 \
+      FL C:/Users/Chuky-master/Downloads/led_adm_vhdl/led_adm_vhdl/counter_2b.vhd \
+      EN work/counter_2b 1559432153
+FL C:/Users/Chuky-master/Downloads/led_adm_vhdl/led_adm_vhdl/led_adm.vhd 2019/05/28.09:46:24 P.20131013
+EN work/led_adm 1559432161 \
+      FL C:/Users/Chuky-master/Downloads/led_adm_vhdl/led_adm_vhdl/led_adm.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/led_adm/Behavioral 1559432162 \
+      FL C:/Users/Chuky-master/Downloads/led_adm_vhdl/led_adm_vhdl/led_adm.vhd \
+      EN work/led_adm 1559432161 CP clk_div CP counter_2b
+FL C:/Users/Chuky-master/Xilinxs/Proyecto1prueba/bcd_a_7_seg.vhd 2019/06/01.17:33:16 P.20131013
+EN work/bcd_a_7_seg 1559432165 \
+      FL C:/Users/Chuky-master/Xilinxs/Proyecto1prueba/bcd_a_7_seg.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/bcd_a_7_seg/Behavioral 1559432166 \
+      FL C:/Users/Chuky-master/Xilinxs/Proyecto1prueba/bcd_a_7_seg.vhd \
+      EN work/bcd_a_7_seg 1559432165
+FL C:/Users/Chuky-master/Xilinxs/Proyecto1prueba/decodificador.vhd 2019/06/01.20:26:20 P.20131013
+EN work/decodificador 1559432167 \
+      FL C:/Users/Chuky-master/Xilinxs/Proyecto1prueba/decodificador.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/decodificador/Behavioral 1559432168 \
+      FL C:/Users/Chuky-master/Xilinxs/Proyecto1prueba/decodificador.vhd \
+      EN work/decodificador 1559432167
+FL C:/Users/Chuky-master/Xilinxs/Proyecto1prueba/DetectorCorrectorHamming.vhd 2019/05/26.21:01:15 P.20131013
+EN work/DetectorCorrectorHamming 1559432159 \
+      FL C:/Users/Chuky-master/Xilinxs/Proyecto1prueba/DetectorCorrectorHamming.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/DetectorCorrectorHamming/Behavioral 1559432160 \
+      FL C:/Users/Chuky-master/Xilinxs/Proyecto1prueba/DetectorCorrectorHamming.vhd \
+      EN work/DetectorCorrectorHamming 1559432159
+FL C:/Users/Chuky-master/Xilinxs/Proyecto1prueba/GeneradorError.vhd 2019/05/26.20:14:46 P.20131013
+EN work/GeneradorError 1559432157 \
+      FL C:/Users/Chuky-master/Xilinxs/Proyecto1prueba/GeneradorError.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/GeneradorError/Behavioral 1559432158 \
+      FL C:/Users/Chuky-master/Xilinxs/Proyecto1prueba/GeneradorError.vhd \
+      EN work/GeneradorError 1559432157
 FL C:/Users/Chuky-master/Xilinxs/Proyecto1prueba/GeneradorHamming.vhd 2019/05/26.17:12:47 P.20131013
-EN work/GeneradorHamming 1558902694 \
+EN work/GeneradorHamming 1559432155 \
       FL C:/Users/Chuky-master/Xilinxs/Proyecto1prueba/GeneradorHamming.vhd \
       PB ieee/std_logic_1164 1381692176
-AR work/GeneradorHamming/Behavioral 1558902695 \
+AR work/GeneradorHamming/Behavioral 1559432156 \
       FL C:/Users/Chuky-master/Xilinxs/Proyecto1prueba/GeneradorHamming.vhd \
-      EN work/GeneradorHamming 1558902694
+      EN work/GeneradorHamming 1559432155
+FL C:/Users/Chuky-master/Xilinxs/Proyecto1prueba/mux.vhd 2019/06/01.20:34:06 P.20131013
+EN work/mux 1559432163 FL C:/Users/Chuky-master/Xilinxs/Proyecto1prueba/mux.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/mux/bhv 1559432164 \
+      FL C:/Users/Chuky-master/Xilinxs/Proyecto1prueba/mux.vhd EN work/mux 1559432163
+FL C:/Users/Chuky-master/Xilinxs/Proyecto1prueba/TopLevel.vhd 2019/06/01.20:35:48 P.20131013
+EN work/TopLevel 1559432169 \
+      FL C:/Users/Chuky-master/Xilinxs/Proyecto1prueba/TopLevel.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/TopLevel/Behavioral 1559432170 \
+      FL C:/Users/Chuky-master/Xilinxs/Proyecto1prueba/TopLevel.vhd \
+      EN work/TopLevel 1559432169 CP GeneradorHamming CP GeneradorError \
+      CP DetectorCorrectorHamming CP led_adm CP mux CP bcd_a_7_seg CP decodificador

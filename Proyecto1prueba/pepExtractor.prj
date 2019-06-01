@@ -1,1 +1,3 @@
-work	"to_7seg.vhd"
+work	"../../Downloads/led_adm_vhdl/led_adm_vhdl/clk_div.vhd"
+work	"../../Downloads/led_adm_vhdl/led_adm_vhdl/counter_2b.vhd"
+work	"../../Downloads/led_adm_vhdl/led_adm_vhdl/led_adm.vhd"

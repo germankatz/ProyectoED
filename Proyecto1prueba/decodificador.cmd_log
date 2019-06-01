@@ -1,0 +1,2 @@
+vhdtdtfi -prj Proyecto1prueba -o C:/Users/Chuky-master/Xilinxs/Proyecto1prueba/decodificador.vhi -module decodificador -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work decodificador.vhd 
+vhdtdtfi -prj Proyecto1prueba -o C:/Users/Chuky-master/Xilinxs/Proyecto1prueba/decodificador.vhi -module decodificador -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work decodificador.vhd 

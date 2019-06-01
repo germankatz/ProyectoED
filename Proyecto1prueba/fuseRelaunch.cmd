@@ -1,1 +1,1 @@
--intstyle "ise" -incremental -o "C:/Users/Chuky-master/Xilinxs/Proyecto1prueba/to_7seg_tb_isim_beh.exe" -prj "C:/Users/Chuky-master/Xilinxs/Proyecto1prueba/to_7seg_tb_beh.prj" "work.to_7seg_tb" 
+-intstyle "ise" -incremental -o "C:/Users/Chuky-master/Xilinxs/Proyecto1prueba/TopLevel_tb_isim_translate.exe" -prj "C:/Users/Chuky-master/Xilinxs/Proyecto1prueba/TopLevel_tb_translate.prj" "work.TopLevel_tb" 

@@ -1,0 +1,17 @@
+#:C0     
+#Xilinx FPGA Editor Command Log File
+#Editor Version:
+#:V   NT M2.1 P.20131013
+#Current Working Directory:
+#:D   C:\Users\Chuky-master\Xilinxs\Proyecto1prueba
+#Date/Time:
+#:T   Sat Jun 01 17:53:34 2019
+#------------------------------
+	#Reading TopLevel_map.ncd...
+	#Loading device for application Rf_Device from file '3s100e.nph' in environment C:\Xilinx\14.7\ISE_DS\ISE\.
+	#   "TopLevel" is an NCD, version 3.2, device xc3s100e, package cp132, speed -4
+	#Design creation date: 2019.06.01.20.53.15
+	#Building chip graphics...
+	#Loading speed info...
+	#1
+setattr main edit-mode no-logic-changes

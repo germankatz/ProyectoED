@@ -1,0 +1,11 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7
+# Build 321239 by xbuild on Fri Sep 27 19:31:35 MDT 2013
+# Start of session at: Sat Jun 01 17:48:49 2019
+# Process ID: 856
+# Log file: C:/Users/Chuky-master/Xilinxs/Proyecto1prueba/planAhead_run_2/planAhead.log
+# Journal file: C:/Users/Chuky-master/Xilinxs/Proyecto1prueba/planAhead_run_2/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source C:/Users/Chuky-master/Xilinxs/Proyecto1prueba/pa.fromHdl.tcl
+update_compile_order -fileset sim_1

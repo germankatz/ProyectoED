@@ -1,0 +1,1 @@
+vhdtdtfi -prj Proyecto1prueba -o C:/Users/Chuky-master/Xilinxs/Proyecto1prueba/bcd_a_7_seg.vhi -module bcd_a_7_seg -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work bcd_a_7_seg.vhd 
